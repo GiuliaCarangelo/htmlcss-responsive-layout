@@ -1,5 +1,5 @@
 /* RESET */
-@media screen and (min-width: 480px);
+@media screen and (min-width: 480px){
 
 * {
     margin: 0;
@@ -7,8 +7,17 @@
     box-sizing: border-box;
 }
 
-.padding-center{
-    padding: 0 2rem;
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+.padding-horizontal-center{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.margin-center{
+    margin: 2rem 2rem;
 }
 
 .blue-bg{
@@ -38,7 +47,7 @@
 .nav-container{
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem 1.8rem;
     height: 80px;
 }
 
@@ -49,4 +58,50 @@
 
 .hamburger-btn{
     border: none;
+}
+
+.demo-app{
+    height: auto;
+    border-radius: 20px;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.container{
+    margin: 3rem 2rem;
+}
+
+.container .demo-app{
+margin-bottom: 0;
+}
+
+.demo-titles{
+    color: #0084fd;
+    font-weight: 700;
+}
+
+p{
+    margin: 2rem 0;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #506271;
+}
+
+.demo-button-style{
+    all: unset;
+    padding-right: 0.5rem;
+}
+
+.demo-app a{
+    padding: 0.55rem 3rem;
+    border-radius: 50px;
+    font-weight: 800;
+    letter-spacing: .2rem;
+}
+
+.phone-img{
+    width: 95%;
+    object-fit: fill;
+    padding-top: 2.5rem;
+}
+
 }
