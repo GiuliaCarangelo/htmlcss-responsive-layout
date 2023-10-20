@@ -16,6 +16,10 @@ body{
     padding-right: 2rem;
 }
 
+.text-align-center{
+    text-align: center;
+}
+
 .margin-center{
     margin: 2rem 2rem;
 }
@@ -63,16 +67,17 @@ body{
 .demo-app{
     height: auto;
     border-radius: 20px;
-    padding: 2rem 2rem 0 2rem;
+    margin-top: 2rem;
+    padding-top: 2.5rem;
 }
 
 .container{
     margin: 3rem 2rem;
 }
 
-.container .demo-app{
-margin-bottom: 0;
-}
+/* .container .demo-app{
+    margin-bottom: 0;
+} */
 
 .demo-titles{
     color: #0084fd;
@@ -99,9 +104,24 @@ p{
 }
 
 .phone-img{
-    width: 95%;
+    width: 100%;
     object-fit: fill;
     padding-top: 2.5rem;
+}
+
+/* TOGLIERE SPAZIO SOTTO IMAGINE^^^ */
+
+.section-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.demo-icon{
+    font-size: 80px;
+    padding-bottom: 1.5rem;
 }
 
 }
