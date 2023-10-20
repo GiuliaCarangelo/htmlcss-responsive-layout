@@ -1,0 +1,52 @@
+/* RESET */
+@media screen and (min-width: 480px);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padding-center{
+    padding: 0 2rem;
+}
+
+.blue-bg{
+    background-color: #0084fd;
+}
+
+.light-blue-bg{
+    background-color: #b5ddff;
+}
+
+.gray-bg{
+    background-color: #333333;
+}
+
+.white-text{
+    color: white;
+}
+
+.color-lilac{
+    background-color: #9792e4;
+}
+
+.flex{
+    display: flex;
+}
+
+.nav-container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 80px;
+}
+
+.hamburger-menu i{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.hamburger-btn{
+    border: none;
+}
