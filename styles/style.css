@@ -72,7 +72,7 @@ body{
 }
 
 .container{
-    margin: 3rem 2rem;
+    margin: 3rem 2rem 4rem 2rem;
 }
 
 /* .container .demo-app{
@@ -122,6 +122,26 @@ p{
 .demo-icon{
     font-size: 80px;
     padding-bottom: 1.5rem;
+}
+
+section.strategic-planning{
+    background-color: #9792e4;
+    padding-top: 4rem;
+}
+
+.girl-wave-image{
+    width: 460px;
+    padding-bottom: 5rem;
+}
+
+.strategic-planning h1{
+    font-size: 2.5rem;
+    padding-bottom: .75rem;
+}
+
+.strategic-planning p{
+    font-weight: 400;
+    padding-bottom: 2rem;
 }
 
 }
