@@ -103,7 +103,7 @@ p{
     padding-right: 0.5rem;
 }
 
-.demo-app a{
+.demo-app .button-style{
     padding: 0.55rem 3rem;
     border-radius: 50px;
     font-weight: 800;
@@ -260,15 +260,33 @@ section.testimonials h4{
     text-align: left;
     font-size: 3rem;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
-.benefits div:nth-child(2){
+.benefits div{
     border-radius: 20px;
+}
+
+.inner-container{
+    padding-bottom: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .inner-container h1.testimonials{
     text-align: left;
     font-size: 2.5rem;
-    padding-top: 0;
+    padding: 0;
+}
+
+.inner-container p{
+    color: #506271;
+    font-weight: 400;
+}
+
+.inner-container .button-style{
+    padding: .5rem 3.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 3px;
 }
