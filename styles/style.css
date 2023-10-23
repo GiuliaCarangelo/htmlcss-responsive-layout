@@ -91,7 +91,7 @@ body{
     font-weight: 700;
 }
 
-p{
+.demo-app p{
     margin: 2rem 0;
     line-height: 2rem;
     font-weight: 700;
@@ -237,6 +237,10 @@ section.testimonials h4{
     padding: 2rem 1rem;
 }
 
+.benefits{
+    padding-bottom: 2rem;
+}
+
 .benefits-inner {
     border-radius: 50px;
 }
@@ -249,7 +253,7 @@ section.testimonials h4{
     width: 100%;
     text-align: center;
     font-size: 3.5rem;
-    padding: 3rem 0 6rem 0;
+    padding: 5rem 0 5rem 0;
 }
 
 .margin-zero-auto{
@@ -274,19 +278,152 @@ section.testimonials h4{
 
 .inner-container h1.testimonials{
     text-align: left;
-    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
     padding: 0;
 }
 
 .inner-container p{
     color: #506271;
     font-weight: 400;
+    margin-bottom: 3rem;
 }
 
 .inner-container .button-style{
-    padding: .5rem 3.5rem;
+    padding: .8rem 3.5rem;
     border-radius: 50px;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 3px;
+}
+
+.about-us{
+    padding-bottom: 5rem;
+}
+
+.about-us h1{
+    padding-top: 4rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.about-us p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.about-us img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.overlay-icon{
+    position: absolute;
+    left: 210px;
+    font-size: 4rem;
+}
+
+.about-us h1{
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.about-us:nth-child(2){
+    margin-top: 0;
+}
+
+section.about-us button{
+    margin-top: 1rem;
+    background-color: #9792e4;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+}
+
+section.about-us button>i{
+    padding-right: 1rem;
+}
+
+.get-started{
+    padding-top: 3rem 0 4rem;
+}
+
+.get-started>div{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0 4rem;
+}
+
+.get-started h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0 0 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.get-started div h2{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+}
+
+.get-started h1{
+    color: #fac062;
+    font-size: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.get-started p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.get-started button{
+    all: unset;
+    background-color: white;
+    color: #9792e4;
+    padding: 1.5rem 6rem;
+    margin: 3rem auto 2rem;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+}
+
+.underlined-text{
+    text-decoration: underline;
+}
+
+.get-started h5{
+    font-weight: 400;
+}
+
+footer div{
+    padding-bottom: 3rem;
+}
+
+footer h5{
+    font-weight: 400;
+    font-size: 1em;
+    padding-top: 3rem;
+}
+
+footer div>:nth-child(2){
+    padding-top: 5rem;
+}
+
+footer h5 span{
+    color: #9792e4;
+    text-decoration: underline;
+}
+
+.boolean-careers{
+    color: #9792e4;
+    text-decoration: underline;
+    padding-bottom: 3rem;
 }
